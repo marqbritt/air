@@ -65,41 +65,8 @@
 
 ## Installation
 
-Install using `pip install -U air` or `conda install air -c conda-forge`.
+Install using `pip install -e .
 
-For `uv` users, just create a virtualenv and install the air package, like:
-
-```sh
-uv venv
-source .venv/bin/activate
-uv init
-uv add air
-```
-### Install optional features (with `uv add`)
-
-You can install each optional feature (extras) like this:
-1. **Standard** — FastAPI’s recommended extras
-   ```sh
-   uv add "air[standard]"
-   ```
-2. **Pretty** — Beautiful HTML Rendering (lxml, rich)
-   ```sh
-   uv add "air[pretty]"
-   ```
-3. **SQL** — SQLModel / SQLAlchemy support
-   ```sh
-   uv add "air[sql]"
-   ```
-4. **Auth** — OAuth clients via Authlib
-   ```sh
-   uv add "air[auth]"
-   ```
-5. **All** — everything above in one go
-   ```sh
-   uv add "air[all]"
-   ```
-> Tip: you can also combine extras in one command, for example:
-> `uv add "air[pretty,sql]"`
 
 ## A Simple Example
 
