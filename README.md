@@ -65,7 +65,7 @@
 
 ## Installation
 
-Install using `pip install -e .
+Install using ```pip install -e .```
 
 
 ## A Simple Example
